@@ -1,0 +1,30 @@
+﻿BBC VIDEO SCRIPT - 60 SECONDS - LIBERIA'S FIRST ELECTRIC KEKE
+Date: Oct 16 2026 Good Governance Month - Shot in Duala Market + Clara Town
+
+[0-5s] OPENING - DUALA MARKET NOISE
+Visual: Gas keke stuck in pothole, driver pushing, crowd
+Voice: "Liberia's kekes spend \ daily on fuel, stuck in potholes"
+Text: Made in Liberia Problem
+
+[5-15s] SOLUTION REVEAL - BLUEPRINT TO REAL
+Visual: Show blueprint.yml 689 bytes on laptop, then cut to yellow electric keke V1 with solar roof in Duala
+Voice: "Last night, with no data, I built Liberia's first electric keke - 180mm clearance, solar roof, swappable battery"
+Text: Built Offline Whole Night Oct 16 2026
+
+[15-30s] TECHNICAL - CLOSE UPS
+Visual: Close up 1000W motor, 60V battery swap 30 seconds, solar panel charging, 300KG rice loading
+Voice: "1000W motor climbs hills, battery swaps in 30 seconds, solar adds 15km free sun, carries 300KG"
+Text: \ vs \ China - Save \/month
+
+[30-45s] GOOD GOVERNANCE HOOK - TODAY NEWS
+Visual: Newspaper headline "15 Oil Blocks Launched + Good Governance Month"
+Voice: "Today Liberia launched oil blocks for energy independence. My keke saves fuel NOW - Made in Liberia, For Liberia - Value addition"
+Text: Good Governance Month - Value Addition
+
+[45-60s] CALL TO ACTION - FUTURE
+Visual: Founder in Duala with welder, kids looking, keke driving away with Liberia flag
+Voice: "10 files factory locked, \ platform, hiring welder and electrician from Duala and Clara Town - This is Liberia's Tesla moment"
+Text: @BanglaHostOriginCore - banglahost.com/electric-keke - Made in Liberia For Liberia
+
+END CARD: Liberia flag + Electric Keke + "Whole Night Build - No Data - Just Hustle"
+

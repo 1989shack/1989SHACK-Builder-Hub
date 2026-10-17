@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Dualer Market Restaurant - 1989SHACK - Port 8881-8885</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{font-family:Arial;background:#020a1a;color:#fff;margin:0;padding:20px}
+.header{background:#ff8c00;color:#020a1a;padding:20px;text-align:center;border-radius:10px}
+.badge{background:#00ff88;color:#020a1a;padding:8px 16px;border-radius:20px;display:inline-block;margin:10px}
+.menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px;margin:20px 0}
+.item{background:#111;border:1px solid #333;padding:15px;border-radius:10px;text-align:center}
+.item h3{color:#ff8c00}
+.btn{background:#ff8c00;color:#020a1a;padding:12px 24px;border:none;border-radius:5px;cursor:pointer;font-weight:bold;width:100%;margin-top:10px}
+.btn:hover{background:#ffb347}
+.footer{text-align:center;margin-top:30px;color:#888}
+.port-links{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:20px}
+.port-links a{background:#1a1a2e;color:#fff;padding:10px 15px;border-radius:5px;text-decoration:none}
+.port-links a:hover{background:#ff8c00;color:#020a1a}
+</style>
+</head>
+<body>
+<div class="header">
+<h1>🍽️ Dualer Market Restaurant</h1>
+<p>Monrovia's Best Jollof & Palm Butter - 30ms Fast!</p>
+<span class="badge">⚡ 30ms Liberia - 300 Cities - 1989SHACK</span>
+<span class="badge">📱 MoMo Pay: *156*3*0888SHACK*5#</span>
+</div>
+
+<div class="port-links">
+<a href="http://localhost:8881/demo-restaurant/">Port 8881</a>
+<a href="http://localhost:8882/demo-restaurant/">Port 8882</a>
+<a href="http://localhost:8883/demo-restaurant/">Port 8883</a>
+<a href="http://localhost:8884/demo-restaurant/">Port 8884</a>
+<a href="http://localhost:8885/demo-restaurant/">Port 8885</a>
+</div>
+
+<div class="menu">
+<div class="item">
+<h3>🍚 Jollof Rice</h3>
+<p>With Chicken & Plantain</p>
+<p><strong>L</strong></p>
+<button class="btn" onclick="order('Jollof')">Order via WhatsApp</button>
+</div>
+<div class="item">
+<h3>🌴 Palm Butter</h3>
+<p>With Fufu & Crab</p>
+<p><strong>L</strong></p>
+<button class="btn" onclick="order('Palm Butter')">Order via WhatsApp</button>
+</div>
+<div class="item">
+<h3>🍲 Fufu & Soup</h3>
+<p>Goat Meat Soup</p>
+<p><strong>L</strong></p>
+<button class="btn" onclick="order('Fufu')">Order via WhatsApp</button>
+</div>
+<div class="item">
+<h3>🥘 Cassava Leaf</h3>
+<p>With Rice & Fish</p>
+<p><strong>L</strong></p>
+<button class="btn" onclick="order('Cassava Leaf')">Order via WhatsApp</button>
+</div>
+</div>
+
+<div style="background:#111;padding:20px;border-radius:10px;margin:20px 0;text-align:center">
+<h2 style="color:#ff8c00">📱 Order Now - MoMo Pay!</h2>
+<p>WhatsApp: 0888-SHACK (0888-74225)</p>
+<p>MoMo: *156*3*0888SHACK*5# - Amount: L/mo for your own site!</p>
+<p>Location: Dualer Market, Monrovia</p>
+<button class="btn" style="max-width:300px" onclick="order('Full Menu')">Order Full Menu</button>
+</div>
+
+<div class="footer">
+<p>Built in 10 secs via 1989SHACK AI Generator - Global Architecture Infrastructure</p>
+<p>Port 8881-8885 - 5x Faster Deploy - 7140 Customers Capacity</p>
+<p>Monrovia Origin Core - C:\BanglaHost\ - L/mo</p>
+<p>Deploy: deploy-5ports-fast.ps1 - 5 ports parallel = 5x faster!</p>
+</div>
+
+<script>
+function order(item){
+  var msg = "Hello! I want to order " + item + " from Dualer Market Restaurant. My location: ";
+  var url = "https://wa.me/23188874225?text=" + encodeURIComponent(msg);
+  window.open(url, "_blank");
+}
+</script>
+</body>
+</html>

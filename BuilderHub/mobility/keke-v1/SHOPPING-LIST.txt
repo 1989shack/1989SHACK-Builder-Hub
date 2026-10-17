@@ -1,0 +1,51 @@
+﻿DUALA MARKET SHOPPING LIST - ELECTRIC KEKE V1
+Date: Oct 17 2026 Morning Run - Monrovia
+Budget:  Prototype
+
+STEEL CHASSIS TEAM:
+- Steel tube 1 inch x 20ft: 6 pieces x  = 
+- Steel flat bar 2in: 4 pieces x  = 
+- Welding rods: 2 packets = 
+- Grinder discs: 10 pcs = 
+- Primer paint red oxide: 1 gallon = 
+Total Chassis: 
+
+WHEELS & SUSPENSION:
+- Front wheel 10in tubeless: 
+- Rear wheels 12in tubeless x2: 
+- Bearings set: 
+Total Wheels:  (update in spec  ->  for Liberia)
+
+ELECTRICAL (Order from Paynesville electronics):
+- 1000W Hub motor kit (motor + controller + throttle): 
+- Wiring harness + lights + horn: 
+
+BATTERY (Most expensive - core):
+- 60V 30Ah Lithium cells + BMS: 
+- Battery box steel IP65: 
+- Connector XT90 + wiring: 
+
+SOLAR ROOF:
+- 200W Mono panel: 
+- Charge controller MPPT 60V: 
+
+BODY:
+- Sheet metal + fiberglass: 
+
+LABOR:
+- Welder 3 days: 
+- Electrician 2 days: 
+
+TOTAL: ~
+
+WHERE TO BUY:
+- Steel: Duala Steel Market - Ask for "1 inch tube"
+- Wheels: Clara Town Motor Parts
+- Motor kit: Paynesville Red Light - China store
+- Battery cells: Order via WhatsApp - Ghana supplier
+- Solar: LEC area - Solar shops
+
+Team recruitment tomorrow: 1 welder, 1 electrician, 1 apprentice
+Facebook post: "BanglaHost hiring - Electric Keke builders - Welding + Wiring - Monrovia - Made in Liberia project"
+
+Status: Shopping list locked - Ready for Duala morning run

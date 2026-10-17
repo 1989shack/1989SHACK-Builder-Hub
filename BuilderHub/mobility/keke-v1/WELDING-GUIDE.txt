@@ -1,0 +1,27 @@
+﻿WELDING GUIDE - KEKE V1 FRAME - DUALA WELDER INSTRUCTION
+Date: Oct 16 2026 - Made in Liberia
+
+FRAME SPECS:
+- Material: Square tube 40x40mm x 2mm thickness - High tensile steel
+- Dimensions: Total 2250mm long, 850mm wide, 1650mm tall
+- Joints: MIG welding, 6mm weld, grind smooth, anti-rust paint
+- Ground Clearance: 180mm - Measure from lowest motor point
+
+STEPS FOR WELDER:
+1. Cut 40x40 tube: 2x 2250mm base, 2x 850mm cross, 4x 600mm upright
+2. Weld base rectangle first - Check diagonal equal (square)
+3. Weld uprights - Use spirit level vertical
+4. Weld cargo bed frame 950x700x300mm - Reinforce with angle iron
+5. Weld front fork holder - Must be straight - Test with wheel
+6. Paint: Red oxide primer + Blue top coat + Yellow accent
+
+QUALITY CHECK:
+- Frame must hold 500KG test (2 persons jump on it)
+- No shake, no crack sound
+- All welds painted - No rust
+
+TIME: 1 day welding
+COST: Welder labor \ + steel \ = \
+
+Photo needed: After weld, send photo to Founder for check
+

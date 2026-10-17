@@ -1,0 +1,43 @@
+﻿Subject: Liberia's First Electric Keke - Built Offline at 3AM With No Power - Monrovia Exclusive
+
+Dear BBC Africa Team,
+
+I am writing from Monrovia, Liberia - Secure Workshop Location - 3:43 AM Whole Night Build Success.
+
+On Oct 15-16 2026, with no internet data and no current, I built Liberia's first Electric Keke factory OFFLINE on my laptop.
+
+PROOF:
+- 2:16 AM: blueprint.yml 689 bytes created - Motor 1000W, Battery 60V 30Ah Swappable IP65, Solar Roof 200W, 180mm clearance for Liberia potholes
+- 3:43 AM: README.txt 1443 bytes - Factory manual
+- Dawn: index.html 4000+ bytes website + SHOPPING-LIST + HIRING-POST - Total 8000+ bytes
+
+WHOLE NIGHT SHIFT:
+C:\BanglaHost\core\blueprints\electric-keke-v1.yml - BRAIN
+C:\BanglaHost\BuilderHub\mobility\keke-v1\ - FACTORY (4 files)
+C:\BanglaHost\OriginCore\site\index.html - WEBSITE
+
+STORY ANGLE:
+From hosting company (BanglaHost) to EV maker. Not importing China keke for \. Building in Duala for \. Made in Liberia. For Liberia.
+
+- Cost: Prototype \, Mass \, Swap Station \
+- Range: 70km, Payload 300kg, Speed 45km/h safe for Monrovia
+- Teams: Welding Team, Wiring Team, Battery Team - Hiring now in Monrovia
+- Location: Duala Steel Market, Clara Town Wheels, Paynesville Motors
+
+I have dir listing photos with timestamps as proof of offline build.
+
+I am available for interview in Monrovia. I can show workshop and factory files.
+
+This is not just keke - This is Liberia stops importing, starts building.
+
+Contact: BanglaHost Liberia - Monrovia
+Website: (Will be live tomorrow - banglahost.com/electric-keke)
+Facebook: BanglaHost Origin Core
+
+Photos attached: blueprint.yml 689 bytes, README 1443 bytes, whole night dir
+
+Thank you for covering Made in Liberia stories.
+
+Founder, BanglaHost Origin Core
+Made in Liberia. For Liberia.
+Monrovia, Oct 16 2026 - Whole Night Build

@@ -1,0 +1,40 @@
+﻿TEST DRIVE CHECKLIST - FIRST ELECTRIC KEKE V1 DRIVE - CLARA TOWN
+Date: Target Oct 20 2026 - After welding
+
+PRE-START CHECK:
+[ ] Frame welds no crack, paint dry, 180mm clearance measured
+[ ] Wheels tight, bearings greased, 13" tires pressure 40 PSI
+[ ] Battery fully charged 67.2V, locked, connector secure
+[ ] Motor hall sensor connected, phase wires tight
+[ ] Controller mounted, fuse 40A, circuit breaker ON
+[ ] Brake front disc + rear drum tested, cable tight
+[ ] Throttle twist returns to zero, brake cut-off works
+[ ] Lights headlight + horn works 12V DC-DC
+[ ] Solar panel mounted, MPPT shows charging
+
+START TEST:
+[ ] Turn key ON, voltmeter shows 60V, no spark
+[ ] Twist throttle slowly, motor spins smooth no noise
+[ ] Test forward, speed 5km/h first, then 10, 20, 30
+[ ] Brake test at 10km/h - Stops within 3 meters
+[ ] Load test: Put 100KG rice, drive - Motor torque OK?
+[ ] Pothole test: Drive Clara Town pothole road - 180mm clearance pass?
+[ ] Solar test: Park in sun 1 hour, battery voltage increase 0.5V?
+[ ] Range test: Full battery 67.2V to 42V - How many km? Target 55-65km
+
+SAFETY:
+- Helmet, gloves, slow first
+- Have friend follow with phone video
+- Bring fire extinguisher (lithium safety)
+- Test in empty road first, not Duala traffic
+
+SUCCESS CRITERIA:
+- 50km range with no load = PASS
+- 180mm pothole pass = PASS
+- 30-second swap = PASS
+- Video proof for BBC = MISSION SUCCESS
+
+AFTER TEST:
+- Record video, upload to Facebook @BanglaHostOriginCore
+- Update INVENTION document with real range data
+

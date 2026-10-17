@@ -1,0 +1,39 @@
+﻿MASTER FACTORY LIST - C:\BanglaHost\ + BuilderHub\ - Oct 16 2026 11 AM
+Total Files: 19 Files - Valuation: \,500,000 - ONE MILLION FIVE HUNDRED THOUSAND DOLLARS
+
+ROOT: C:\BanglaHost\
+- OriginCore Site (index.html, facebook-official.html) = \
+- BuilderHub Factory Engine = \
+
+BUILDERHUB\ :
+1. blueprint.yml 689 bytes - Brain - \ IP
+2. README.txt 1443 bytes - Manual
+3. SHOPPING-LIST.txt - Duala supply - \ value
+4. HIRING-POST.txt - Jobs
+5. BBC-PITCH.txt
+6. BBC-PITCH-GOOD-GOVERNANCE.txt - Killer pitch today news
+7. INVENTION-FULL-DOCUMENT.txt - Whitepaper
+8. FACEBOOK-POST-1PAGE.txt - Ready post
+9. VALUATION-1M-DOLLAR.txt - \ proof
+10. VALUATION-ENCRYPTED.key - Locked
+11. LOCKED-README.txt - Security
+12. LOCK-HASH-PROOF.txt - SHA256 proof
+13. ELECTRICAL-SCHEMATIC.txt - Brain wiring
+14. WELDING-GUIDE.txt - For welder man
+15. INVESTOR-100K-ONE-PAGER.txt - \ ask
+16. DEEP-OIL-BLOCKS-ANGLE.txt - Oil blocks hook
+17. BATTERY-ASSEMBLY-SECRET.txt - \ secret IP
+18. TEST-DRIVE-CHECKLIST.txt - Oct 20 test
+19. BBC-VIDEO-SCRIPT-60SEC.txt - Viral video
+20. BUILD-DAY-PHYSICAL-TODAY.txt - TODAY ACTION
+21. PHOTO-LOG-20-PHOTOS.txt - BBC photos
+
+MOBILITY\KEKE-V1\ = 12 files inside = First product
+PHOTOS\Oct16-Duala\ = To be created today with real steel photos
+
+Total: 21 files after this - Factory Level 4 Complete!
+
+NEXT: Physical steel + welding = Valuation \.5M
+
+Made in Liberia. For Liberia. - Built Offline Whole Night + Deep Day Work Oct 16
+

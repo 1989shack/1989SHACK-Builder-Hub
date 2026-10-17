@@ -1,0 +1,41 @@
+﻿Subject: Pitch: Liberian Entrepreneur Builds EV Keke Factory Offline Overnight - Seeking Google for Startups Feature
+
+Dear CNN Africa / Google for Startups Africa Team,
+
+Subject: From No Current, No Data to EV Factory - 8000 bytes built in Monrovia at 3AM
+
+I am BanglaHost Liberia founder. On Oct 16 2026, I completed whole night build:
+
+- Built Electric Keke V1 blueprint OFFLINE (no internet) with PowerShell and Notepad++
+- Specs: 1000W Hub Motor, 60V 30Ah Lithium Swappable, 200W Solar Roof, 180mm clearance for potholes
+- Files: blueprint.yml 689 bytes -> README 1443 bytes -> index.html 4000+ bytes -> Shopping list -> Hiring post
+- Backup: BuilderHub-BACKUP-Oct16 secured
+
+WHY THIS MATTERS FOR CNN / GOOGLE:
+- Africa EV story: Liberia building own transport, not importing
+- Tech story: Offline coding in low-resource environment
+- Youth story: Whole night hustle, secure location, current ON
+- SEO: Will be #1 for "Electric Keke Liberia" - investor searchable
+
+WHAT I NEED:
+- CNN: Cover Made in Liberia EV story
+- Google: Feature in Google for Startups Africa / Solution Challenge - need cloud credits to host OriginCore site and battery swap app
+- Facebook: Verify BanglaHost Origin Core page, boost hiring post for welders
+
+Next steps this week:
+- Buy steel Duala, build chassis, post daily progress
+- Live website tunnel
+- Hire welder + electrician team Monrovia
+
+I have timestamped photos and factory files as proof.
+
+Ready for interview/video call from Monrovia.
+
+Contact: BanglaHost Liberia
+Project: BanglaHost Origin Core - Electric Keke Liberia V1
+Motto: Made in Liberia. For Liberia.
+
+Thank you.
+
+Founder
+Oct 16 2026

@@ -1,0 +1,26 @@
+# BANGLAHOST ORIGIN CORE - LIBERIA INDUSTRIAL REVOLUTION
+project: electric-keke-liberia
+version: v1
+date: 2026-10-16
+origin: C:\BanglaHost
+
+vision:
+    - Build first Liberia-made Electric Keke
+    - Affordable for every driver in Monrovia
+    - Solar-chargeable
+
+specs_v1:
+  motor: "1000W Brushless Hub Motor"
+  battery: "60V 30Ah Lithium Swappable"
+  range: "70-80km per charge"
+  speed: "45km/h max"
+  solar_roof: "200W panel trickle charge"
+  chassis: "Local steel tube, welded in Monrovia"
+  wheels: "3 wheel, 10 inch"
+
+cost_target:
+  prototype: 1200
+  mass_production: 800
+  battery_swap_station: 300
+
+motto: "Made in Liberia. For Liberia."

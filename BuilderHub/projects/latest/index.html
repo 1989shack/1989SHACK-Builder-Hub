@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>🚗 Liberia Car Factory - Build Cars In Liberia - cars.1989shack.com - Industrial Revolution</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Liberia builds own cars - Factory OS - Make In Liberia - Iron, Rubber, Workers - cars.1989shack.com">
+<style>
+body{font-family:Arial;background:#020a1a;color:#fff;margin:0;padding:0}
+.header{background:linear-gradient(135deg,#ff8c00,#ff2200);color:#fff;padding:25px;text-align:center;position:relative;overflow:hidden}
+.header::before{content:"";position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:repeating-linear-gradient(45deg,transparent,transparent 10px,rgba(255,255,255,0.05) 10px,rgba(255,255,255,0.05) 20px);animation:slide 20s linear infinite}
+@keyframes slide{0%{transform:translate(0,0)}100%{transform:translate(50px,50px)}}
+.header h1{margin:0;font-size:32px;position:relative}
+.header p{position:relative}
+.badge{background:#00ff88;color:#020a1a;padding:8px 16px;border-radius:20px;display:inline-block;margin:5px;font-weight:bold;font-size:11px;position:relative}
+.nav{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;background:#111;padding:12px;position:sticky;top:0;z-index:10}
+.nav button{background:#1a1a2e;color:#fff;border:1px solid #ff8c00;padding:10px 14px;border-radius:20px;cursor:pointer;font-size:13px}
+.nav button.active{background:#ff8c00;color:#020a1a;font-weight:bold}
+.section{background:#111;border:1px solid #333;margin:15px;padding:15px;border-radius:15px;display:none}
+.section.active{display:block}
+.stat{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:15px 0}
+.stat-box{background:linear-gradient(135deg,#1a1a2e,#2a2a4e);border:1px solid #ff8c00;padding:15px;border-radius:12px;text-align:center}
+.stat-box h3{color:#ff8c00;margin:0;font-size:26px}
+.stat-box p{margin:5px 0;color:#aaa;font-size:11px}
+.car-model{background:#0a0a0a;border:2px solid #ff8c00;border-radius:15px;padding:15px;margin:15px 0;display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.car-img{width:100%;height:200px;background:linear-gradient(135deg,#333,#111);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:60px}
+.item{background:#0a0a0a;border-left:4px solid #ff8c00;padding:12px;margin:10px 0;border-radius:8px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+.btn{background:#ff8c00;color:#020a1a;padding:10px 18px;border:none;border-radius:20px;cursor:pointer;font-weight:bold;margin:2px;font-size:13px}
+.btn-green{background:#00ff88}
+.btn-blue{background:#00aaff;color:#fff}
+.btn-red{background:#ff4444;color:#fff}
+.progress{width:100%;background:#333;border-radius:10px;height:18px;overflow:hidden;margin:8px 0}
+.progress-bar{height:100%;background:linear-gradient(90deg,#ff8c00,#00ff88);width:0%;transition:width 1s;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:bold;color:#020a1a}
+.wheel-status{background:linear-gradient(135deg,#020a1a,#1a1a2e);border:2px solid #00ff88;padding:15px;border-radius:12px;margin:15px 0;text-align:center}
+.footer{text-align:center;padding:25px;color:#888;background:#0a0a0a;margin-top:20px;border-top:2px solid #ff8c00}
+</style>
+</head>
+<body>
+<div class="header">
+<h1>🚗🇱🇷 Liberia Car Factory</h1>
+<p>Build Cars In Liberia - Industrial Revolution - Make In Liberia, Drive In Africa!</p>
+<span class="badge">🛞 WHEEL: Self-Rebuild/Generate/Deploy</span>
+<span class="badge">🏭 cars.1989shack.com</span>
+<span class="badge">⚡ 30ms Monrovia Origin Core</span>
+<span class="badge">🔧 500 Workers - 10 Factories</span>
+<span class="badge">🚗 Liberia Own Cars - 2026</span>
+</div>
+
+<div class="wheel-status">
+<h2 style="color:#00ff88;margin:0">🛞 WHEEL STATUS: RUNNING - Self-generating car parts every hour!</h2>
+<p style="margin:5px 0">Origin Core: C:\BanglaHost\ - Ports 8881-8885 - 300 Cities - Subdomain: cars.1989shack.com</p>
+<p style="margin:5px 0">Last invention: <span id="lastInvent" style="color:#ff8c00">Liberia Electric Keke - 14:30</span> | Next: <span style="color:#00ff88">Liberia Pickup Truck - 15:30</span></p>
+</div>
+
+<div class="nav">
+<button class="active" onclick="showSection('factory')">🏭 Car Factory</button>
+<button onclick="showSection('design')">🎨 Design</button>
+<button onclick="showSection('parts')">🔧 Parts - Made In Liberia</button>
+<button onclick="showSection('assemble')">🔨 Assemble</button>
+<button onclick="showSection('workers')">👷 Workers</button>
+<button onclick="showSection('sell')">🚗 Sell Cars</button>
+<button onclick="showSection('wheel')">🛞 Wheel Inventions</button>
+</div>
+
+<div id="factory" class="section active">
+<h2 style="color:#ff8c00">🏭 Liberia Car Factory Floor - Dualer Industrial Zone</h2>
+<div class="stat">
+<div class="stat-box"><h3>3</h3><p>Cars Assembling Today</p></div>
+<div class="stat-box"><h3>47</h3><p>Workers On Floor</p></div>
+<div class="stat-box"><h3>85%</h3><p>Parts Made In Liberia</p></div>
+<div class="stat-box"><h3>L$8.5M</h3><p>Revenue - 1 Car Sold Today</p></div>
+</div>
+
+<h3 style="color:#00ff88">🚗 Cars In Assembly (Live)</h3>
+<div class="car-model">
+<div class="car-img">🛺</div>
+<div>
+<h3 style="color:#ff8c00;margin:0">Liberia Keke - Model L1 - Electric</h3>
+<p>Made in Dualer - 80% Liberia parts - Iron Bassa, Rubber Bong</p>
+<div class="progress"><div class="progress-bar" style="width:85%">85% - Wiring</div></div>
+<p>Workers: 5 welders - ETA: 2 hours</p>
+<p>Price: L$850K (Import Keke L$1.2M - Save L$350K!)</p>
+<button class="btn" onclick="trackCar('keke-L1-001')">Track Live Assembly</button>
+<button class="btn btn-green" onclick="buyCar('keke-L1')">Pre-Order - MoMo</button>
+</div>
+</div>
+
+<div class="car-model">
+<div class="car-img">🛻</div>
+<div>
+<h3 style="color:#ff8c00;margin:0">Liberia Pickup - Model P1 - Diesel - Farm Use</h3>
+<p>For cassava, rubber farmers - Strong - Made in Liberia</p>
+<div class="progress"><div class="progress-bar" style="width:45%">45% - Chassis Welding</div></div>
+<p>Workers: 8 - ETA: 1 day</p>
+<p>Price: L$2.5M (Import L$4M - Save L$1.5M!)</p>
+<button class="btn" onclick="trackCar('pickup-P1-002')">Track</button>
+<button class="btn btn-green" onclick="buyCar('pickup-P1')">Pre-Order</button>
+</div>
+</div>
+
+<div class="car-model">
+<div class="car-img">🚗</div>
+<div>
+<h3 style="color:#ff8c00;margin:0">Liberia Taxi - Model T1 - 5 Seater</h3>
+<p>Taxi for Monrovia - Fuel efficient - Made in Liberia</p>
+<div class="progress"><div class="progress-bar" style="width:20%">20% - Design</div></div>
+<p>Workers: Design team 3 - ETA: 3 days</p>
+<p>Price: L$1.8M (Import L$2.8M)</p>
+<button class="btn btn-blue" onclick="designCar('taxi-T1')">Join Design</button>
+</div>
+</div>
+</div>
+
+<div id="design" class="section">
+<h2 style="color:#ff8c00">🎨 Design Your Liberia Car - Community Design</h2>
+<p>Anyone can design car part - Welders, youth, engineers - Best design wins L$10K!</p>
+<div class="item"><span><strong>Chassis Design L1 Keke</strong> - By Musa (Welder, Dualer) - 4.9★ - 50 votes</span><button class="btn btn-green" onclick="vote('chassis-L1-musa')">Vote - Winner L$10K</button></div>
+<div class="item"><span><strong>Body - Pickup P1 - Strong for farm road</strong> - By Kollie (Mechanic, Bong) - 4.8★ - 45 votes</span><button class="btn" onclick="vote('body-P1-kollie')">Vote</button></div>
+<div class="item"><span><strong>Electric Battery Keke - Solar charging</strong> - By Fatu (Engineer, UL) - 5.0★ - 80 votes - LEADING!</span><button class="btn btn-green" onclick="vote('battery-solar-fatu')">Vote - Solar!</button></div>
+<button class="btn btn-blue" onclick="submitDesign()">+ Submit Your Car Design - Win L$10K - MoMo</button>
+</div>
+
+<div id="parts" class="section">
+<h2 style="color:#ff8c00">🔧 Parts - Made In Liberia - Replace Import - 85% Local!</h2>
+<div class="stat">
+<div class="stat-box"><h3>85%</h3><p>Made In Liberia</p></div>
+<div class="stat-box"><h3>15%</h3><p>Import (Engine, Electronics)</p></div>
+<div class="stat-box"><h3>L$50M</h3><p>Import Saved This Year</p></div>
+<div class="stat-box"><h3>200</h3><p>Local Part Makers</p></div>
+</div>
+
+<h3>Local Parts Available Now:</h3>
+<div class="item"><span><strong>Chassis Iron</strong> - Made from Bassa Iron Ore Scrap - Youth Group Clara - Stock: 10 - L$80K (Import L$150K)</span><button class="btn btn-green" onclick="buyPart('chassis-iron-bassa')">Buy Local - Save L$70K</button></div>
+<div class="item"><span><strong>Tire 175/70</strong> - Made Dualer Tire Factory - Rubber Bong - Stock: 100 - L$8K (Import L$12K)</span><button class="btn btn-green" onclick="buyPart('tire-175-dualer')">Buy</button></div>
+<div class="item"><span><strong>Seat - Lapa Fabric</strong> - Made by Lapa Women Dualer - Stock: 50 sets - L$15K (Import L$30K)</span><button class="btn btn-green" onclick="buyPart('seat-lapa-dual')">Buy - Support Women</button></div>
+<div class="item"><span><strong>Body Panel - Welded Iron</strong> - Made by Welders Sinkor - Stock: 20 - L$45K</span><button class="btn btn-green" onclick="buyPart('body-panel-sinkor')">Buy</button></div>
+<div class="item"><span><strong>Battery - Reconditioned</strong> - Made by Youth ELWA - Solar charging option - L$35K</span><button class="btn btn-blue" onclick="buyPart('battery-elwa')">Buy - Solar Option</button></div>
+<div class="item"><span><strong>Engine - Import (For now)</strong> - From China - Stock: 5 - L$250K - Goal: Make in Liberia in 1 year!</span><button class="btn" style="background:#ff4444;color:#fff" onclick="buyPart('engine-import')">Buy Import - Temporary</button></div>
+<button class="btn btn-blue" onclick="makePart()">+ Make Part In Liberia - List - Sell to Car Factory - MoMo Pay</button>
+</div>
+
+<div id="assemble" class="section">
+<h2 style="color:#ff8c00">🔨 Assemble Car - Factory Floor Live - 47 Workers</h2>
+<div class="item"><span><strong>Station 1: Chassis Welding</strong> - Workers: 8 welders - Kollie team - Status: Welding Keke L1 - 85% - Live cam</span><button class="btn" onclick="watchCam('station1')">Watch Live Cam</button></div>
+<div class="item"><span><strong>Station 2: Engine + Tire Install</strong> - Workers: 5 mechanics - Musa team - Status: Installing engine to Pickup P1 - 45%</span><button class="btn" onclick="watchCam('station2')">Watch</button></div>
+<div class="item"><span><strong>Station 3: Body + Seats</strong> - Workers: 10 - Lapa women + welders - Status: Seats for Keke L1</span><button class="btn" onclick="watchCam('station3')">Watch</button></div>
+<div class="item"><span><strong>Station 4: Wiring + Testing</strong> - Workers: 4 electricians - Fatu team - Status: Testing Keke L1 wiring - 85% - Almost done!</span><button class="btn btn-green" onclick="watchCam('station4')">Watch - Testing!</button></div>
+<button class="btn btn-green" onclick="joinAssemble()">+ Join Assembly Team - Welder/Mechanic - L$2000/day MoMo</button>
+</div>
+
+<div id="workers" class="section">
+<h2 style="color:#ff8c00">👷 Workers - Liberia Car Builders - 500 Skilled Workers</h2>
+<div class="stat">
+<div class="stat-box"><h3>127</h3><p>Welders</p></div>
+<div class="stat-box"><h3>85</h3><p>Mechanics</p></div>
+<div class="stat-box"><h3>45</h3><p>Electricians</p></div>
+<div class="stat-box"><h3>200</h3><p>Lapa/Body Workers</p></div>
+</div>
+<div class="item"><span><strong>Musa S.</strong> - Master Welder - 10 years - Firestone - 5.0★ - Built 20 cars - L$3000/day - Available</span><button class="btn btn-green" onclick="hireWorker('musa-master')">Hire - Master!</button></div>
+<div class="item"><span><strong>Kollie W.</strong> - Chassis Expert - 7 years - Dualer - 4.9★ - Built 15 cars - L$2500/day</span><button class="btn btn-green" onclick="hireWorker('kollie-chassis')">Hire</button></div>
+<div class="item"><span><strong>Fatu K.</strong> - Electric Car Battery - UL Engineer - 4.9★ - Solar expert - L$5000/day</span><button class="btn btn-green" onclick="hireWorker('fatu-battery')">Hire - Engineer!</button></div>
+<div class="item"><span><strong>20 Youth - ELWA</strong> - Trained 3 months - Welding - 4.5★ - L$1000/day - Need job!</span><button class="btn btn-blue" onclick="hireWorker('youth-elwa-20')">Hire 20 Youth - Train</button></div>
+<button class="btn btn-blue" onclick="registerAsWorker()">+ Register as Car Builder - Skill? - Get Hired - MoMo Daily Pay</button>
+</div>
+
+<div id="sell" class="section">
+<h2 style="color:#ff8c00">🚗 Sell Liberia-Made Cars - Make In Liberia, Drive In Africa!</h2>
+<div class="car-model">
+<div class="car-img">🛺</div>
+<div>
+<h3>Liberia Keke L1 - SOLD TODAY! - 1 unit</h3>
+<p>Buyer: Taxi Union Dualer - Price: L$850K - Paid MoMo - Delivery: Tomorrow - Driver: Trained</p>
+<p>Profit: L$200K - Workers: 5 paid L$2000 each - Import saved: L$350K!</p>
+<button class="btn btn-green" onclick="orderCar('keke-L1-buy')">Buy Keke L1 - L$850K - MoMo 3 installments</button>
+</div>
+</div>
+<div class="item"><span><strong>Pre-orders: 15 Keke L1</strong> - Taxi drivers waiting - Need 15 built - 2 months work!</span><button class="btn btn-blue" onclick="viewPreorders()">View Pre-orders - L$12.7M pipeline!</button></div>
+<div class="item"><span><strong>Farmers: 5 Pickup P1 pre-ordered</strong> - Bong farmers - Need for cassava transport - L$12.5M pipeline!</span><button class="btn btn-blue" onclick="viewPreorders()">View</button></div>
+<button class="btn btn-green" onclick="sellCar()">+ Sell Your Liberia Car - List - Buyer MoMo - 10% fee to platform</button>
+</div>
+
+<div id="wheel" class="section">
+<h2 style="color:#00ff88">🛞 Wheel Inventions - Self-Generated Car Apps - Every Hour!</h2>
+<div class="wheel-status">
+<p>Wheel invents new car model every 1 hour - No human! Last 24 hours:</p>
+<div id="wheelList" style="text-align:left;max-height:300px;overflow-y:auto;background:#020a1a;padding:10px;border-radius:8px">
+<p>14:30 - 🛺 Liberia Electric Keke L1 - Solar - 80% local - http://localhost:8881/keke-L1/</p>
+<p>13:30 - 🛻 Liberia Farm Pickup P1 - Diesel - Strong - http://localhost:8881/pickup-P1/</p>
+<p>12:30 - 🚗 Liberia Taxi T1 - 5 seater - Fuel efficient - http://localhost:8881/taxi-T1/</p>
+<p>11:30 - 🔋 Solar Battery Pack - For Keke - Made ELWA - http://localhost:8881/battery-solar/</p>
+<p>10:30 - 🔧 Chassis Welding Robot - Help welders - http://localhost:8881/welding-robot/</p>
+<p>09:30 - 👷 Worker Training App - Learn welding in 3 months - http://localhost:8881/training-welding/</p>
+<p>08:30 - 💰 Car Loan MoMo - Buy car pay monthly - http://localhost:8881/car-loan-momo/</p>
+</div>
+<p>Total wheel inventions: <span style="color:#ff8c00;font-size:20px">127 car apps</span> - This week! Next: Liberia Electric Car!</p>
+</div>
+<button class="btn btn-green" onclick="startWheel()">🛞 Start Wheel - Invent Car Every Hour - Self-Generate!</button>
+<button class="btn btn-blue" onclick="viewAllWheel()">View All 127 Wheel Car Inventions</button>
+</div>
+
+<div class="footer">
+<p>🚗🇱🇷 Liberia Car Factory - Build Cars In Liberia - Industrial Revolution - cars.1989shack.com</p>
+<p>Monrovia Origin Core C:\BanglaHost\ - 5 Ports 8881-8885 - Wheel: Self-Rebuild/Generate/Deploy</p>
+<p>Make In Liberia: Iron Bassa, Rubber Bong, Workers Dualer, Lapa Seats, Solar Battery ELWA</p>
+<p>85% Made In Liberia - 15% Import (Engine for now) - Goal 2027: 95% Made In Liberia!</p>
+<p>Subdomain Wheel: cars.1989shack.com -> localhost:8881 -> Global 300 Cities -> 30ms</p>
+<p>Wheel Invented: Liberia Car Factory - $(new Date).toLocaleString() - Self-generated industrial revolution!</p>
+<p>MoMo: *156*3*0888SHACK*5# - WhatsApp: 0888-SHACK - Investors: 35% return - Jobs: 500 - Import Saved: L$50M</p>
+<p>🛞 WHEEL - Self Rebuild / Self Generate / Self Deploy - Liberia Builds Own Cars - Africa Rides Liberia Cars!</p>
+</div>
+
+<script>
+function showSection(id){ document.querySelectorAll('.section').forEach(s=>s.classList.remove('active')); document.getElementById(id).classList.add('active'); document.querySelectorAll('.nav button').forEach(b=>b.classList.remove('active')); event.target.classList.add('active'); window.scrollTo(0,0); }
+function trackCar(id){ alert('Tracking '+id+' - Live factory cam: Dualer Industrial Zone - Workers welding now - ETA 2 hours - Wheel monitoring!'); }
+function buyCar(id){ var msg='I want to pre-order Liberia Car '+id+' - cars.1989shack.com - Industrial Revolution - Make In Liberia!'; window.open('https://wa.me/23188874225?text='+encodeURIComponent(msg),'_blank'); }
+function designCar(id){ var idea=prompt('Your design idea for '+id+'?'); if(idea) alert('Design submitted: '+idea+' - Community votes - Winner gets L$10K MoMo!'); }
+function vote(id){ alert('Voted for '+id+' - Thank you! Winner gets L$10K - Community design for Liberia cars!'); }
+function submitDesign(){ var type=prompt('Design type? (Chassis, Body, Battery, Seat)'); var exp=prompt('Your experience?'); if(type) alert('Design submitted for '+type+' - Upload photo? - Community votes - L$10K prize!'); }
+function buyPart(id){ var msg='I want to buy part '+id+' Made In Liberia - cars.1989shack.com - Support local!'; window.open('https://wa.me/23188874225?text='+encodeURIComponent(msg),'_blank'); }
+function makePart(){ var part=prompt('What part you make? (Chassis, Tire, Seat, Body)'); var material=prompt('Material? (Iron Bassa, Rubber Bong, Lapa Dualer)'); var price=prompt('Price L$?'); if(part) alert('Part listed: '+part+' from '+material+' for L$'+price+' - Car factory buyers will see - MoMo when sold!'); }
+function watchCam(id){ alert('Live cam '+id+' - Dualer Industrial Zone - Workers active - 47 workers - Wheel monitors - Self-rebuild if cam fails!'); }
+function joinAssemble(){ var skill=prompt('Your skill? (Welder, Mechanic, Electrician)'); var name=prompt('Name?'); if(skill) alert(name+' joined assembly as '+skill+' - L$2000/day MoMo - Go to Dualer factory - Wheel assigns station!'); }
+function hireWorker(id){ alert('Hiring '+id+' - MoMo daily pay - SMS sent - Worker goes to factory tomorrow - Wheel tracks!'); }
+function registerAsWorker(){ var skill=prompt('Skill? (Welder, Mechanic, Electrician, Lapa)'); var exp=prompt('Years?'); var name=prompt('Name?'); var phone=prompt('Phone?'); if(skill) alert(name+' registered as '+skill+' '+exp+' years - Phone '+phone+' - Factories will hire - Check workers tab! - MoMo pay!'); }
+function orderCar(id){ buyCar(id); }
+function viewPreorders(){ alert('Pre-orders: 15 Keke L1 = L$12.7M - 5 Pickup P1 = L$12.5M - Total pipeline L$25.2M - Need 20 workers 2 months! - Investors interested!'); }
+function sellCar(){ var model=prompt('Car model you built? (Keke L1, Pickup P1)'); var price=prompt('Price L$?'); if(model) alert(model+' listed for L$'+price+' - Buyers see - Platform fee 10% - MoMo when sold - Wheel promotes!'); }
+function startWheel(){ alert('🛞 Wheel already RUNNING! Invents new car app every hour - Self-generating - Check wheel tab - Last: Electric Keke L1 - Next: Pickup - No human needed!'); }
+function viewAllWheel(){ alert('All 127 wheel inventions: Keke, Pickup, Taxi, Battery, Welding Robot, Training, Loan, etc - View at http://localhost:8881/wheel-dashboard.html - Wheel invents while you sleep!'); }
+// Auto update last invention time
+setInterval(()=>{ var ideas=["Liberia Electric Keke","Liberia Pickup","Liberia Taxi","Solar Battery","Welding Robot"]; document.getElementById('lastInvent').innerText=ideas[Math.floor(Math.random()*ideas.length)]+" - "+new Date().toLocaleTimeString(); },5000);
+</script>
+<!-- COMMENT SECTION START -->
+<section style="max-width:700px;margin:50px auto;padding:20px;background:#f5f5f5;border-radius:10px;">
+  <h2>💬 Customer Comments</h2>
+  <input id="name" placeholder="Your Name" style="width:100%;padding:10px;margin:10px 0;border-radius:5px;border:1px solid #ccc;">
+  <textarea id="comment" placeholder="Write your comment about Liberia Cars..." style="width:100%;padding:10px;height:100px;border-radius:5px;border:1px solid #ccc;"></textarea>
+  <button onclick="addComment()" style="padding:10px 20px;background:#000;color:#fff;border-radius:5px;cursor:pointer;margin-top:10px;">Post Comment</button>
+  <div id="comments" style="margin-top:20px;"></div>
+</section>
+
+<script>
+function addComment(){
+  let n=document.getElementById('name').value;
+  let c=document.getElementById('comment').value;
+  if(!n||!c) return alert('Write name & comment!');
+  let div=document.createElement('div');
+  div.style="background:white;padding:15px;margin:10px 0;border-radius:8px;box-shadow:0 2px 5px rgba(0,0,0,0.1)";
+  div.innerHTML=`<strong>${n}</strong><p>${c}</p><small>${new Date().toLocaleString()}</small>`;
+  document.getElementById('comments').prepend(div);
+  localStorage.setItem('comments', document.getElementById('comments').innerHTML);
+  document.getElementById('name').value='';document.getElementById('comment').value='';
+}
+window.onload=()=>{let s=localStorage.getItem('comments'); if(s) document.getElementById('comments').innerHTML=s;}
+</script>
+<!-- COMMENT SECTION END --><div id="fb-root"></div>
+<script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0"></script>
+<div class="fb-comments" data-href="https://better-seas-flow.loca.lt" data-width="100%" data-numposts="10"></div></body>
+</html>

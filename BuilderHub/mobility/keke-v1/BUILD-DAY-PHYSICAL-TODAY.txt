@@ -1,0 +1,46 @@
+﻿PHYSICAL BUILD DAY - TODAY OCT 16 2026 - FROM FILES TO STEEL
+Time: Now 76F Sunny - Must leave before 2PM showers + 7PM thunderstorms
+
+STEP 1: LEAVE NOW - 10:30 AM (1 hour Duala run)
+Carry:
+- Phone with SHOPPING-LIST.txt screenshot
+- Phone with blueprint image (yellow keke)
+- Cash \
+- Power bank
+- This checklist
+
+STEP 2: DUALA STEEL MARKET - 11:00 AM
+- Shop 1: Ask 40x40mm square tube 2mm thickness, 6 meters - Price? Photo price tag
+- Shop 2: Ask sheet metal 2mm, 2x1 meter - Price? Photo
+- Shop 3: Ask angle iron 40mm - For reinforcement
+- Buy if price good: 1x tube + 1x sheet = \-150
+- Get receipt - Write shop name + phone number
+- Photo: You holding steel + blueprint on phone
+
+STEP 3: CLARA TOWN WHEELS - 11:45 AM
+- Ask 13" tire all-terrain - Price? Photo
+- Ask bearings 6204 - Price?
+- Ask front disc brake set
+- Don't buy yet - Just price check + photo
+- Get contact for later
+
+STEP 4: PAYNESVILLE MOTORS - 12:30 PM (If time before rain)
+- Ask 1000W hub motor 60V - Price? Is it in stock?
+- Ask 60V 30A controller sine wave IP65
+- Photo motor + controller
+
+STEP 5: RETURN BEFORE RAIN - 1:30 PM
+- Rain starts 2PM per weather - Be back secure location
+- Put steel in dry place - Cover with plastic if outside
+- Lock laptop - Thunderstorm 7PM may cut current
+
+STEP 6: DOCUMENT - 2:00 PM During Rain
+- Create file TODAY-BUILD-LOG.txt with real prices
+- Update VALUATION with real costs
+- Photos to folder BuilderHub\photos\Oct16-Duala\
+
+SUCCESS TODAY = Steel bought + Photos + Prices logged = Factory becomes REAL
+FAIL = Stay home = 17 files stay digital only
+
+GO NOW - SUNNY WINDOW CLOSING!
+

@@ -1,0 +1,17 @@
+﻿{
+    "status":  "DEPLOYED - WHEEL",
+    "app":  "auto-wheel-app",
+    "ports":  [
+                  "8881",
+                  "8882",
+                  "8883",
+                  "8884",
+                  "8885"
+              ],
+    "urls":  [
+                 "http://localhost:8881/auto-wheel-app/",
+                 "http://localhost:8882/auto-wheel-app/",
+                 "https://auto-wheel-app.1989shack.com"
+             ],
+    "time":  "2026-10-14 00:42:03"
+}

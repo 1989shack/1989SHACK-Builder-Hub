@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-Keke Calculator - Cost to Build 1 Electric Keke</title>
+<style>
+body{font-family:Arial;background:#0a0a0a;color:#fff;padding:15px}
+h1{color:#ffcc00;text-align:center}
+.card{background:#1a1a1a;border-radius:12px;padding:12px;margin-top:15px;border:1px solid #333}
+table{width:100%;border-collapse:collapse;margin-top:10px}
+th,td{border:1px solid #444;padding:8px;text-align:left}
+th{background:#222;color:#ffcc00}
+.total{font-weight:bold;background:#333;color:#00ff88}
+input{width:80px;padding:5px;background:#222;color:#fff;border:1px solid #555;border-radius:5px}
+.badge{display:inline-block;background:#ffcc00;color:#000;padding:3px 8px;border-radius:10px;font-size:12px;font-weight:bold}
+</style>
+<script>
+function calc(){
+let s10 = parseFloat(document.getElementById('s10').value)||0;
+let s12 = parseFloat(document.getElementById('s12').value)||0;
+let s13 = parseFloat(document.getElementById('s13').value)||0;
+let batt = parseFloat(document.getElementById('batt').value)||0;
+let motor = parseFloat(document.getElementById('motor').value)||0;
+let labour = parseFloat(document.getElementById('labour').value)||0;
+let other = parseFloat(document.getElementById('other').value)||0;
+let total = s10+s12+s13+batt+motor+labour+other;
+document.getElementById('total').innerText = "$"+total.toFixed(2);
+let petrol = 1800; // Guess price of new STALLION M41671
+let diff = petrol - total;
+document.getElementById('diff').innerText = (diff>=0?"SAVE $"+diff.toFixed(2)+" vs Petrol!":"Over by $"+Math.abs(diff).toFixed(2));
+}
+</script>
+</head>
+<body>
+<h1>⚡ E-Keke Builder Calculator - Duala Prices</h1>
+<p style="text-align:center;color:#aaa">From LAXMI Quote 17 Oct + Duala Field | Compare vs STALLION EURO 11 200CC M41671</p>
+
+<div class="card">
+<h3>🔩 Steel Frame - From LAXMI Today</h3>
+<table>
+<tr><th>Item</th><th>Unit Price (Duala)</th><th>Qty for 1 Keke</th><th>Cost</th><th>Edit</th></tr>
+<tr><td>Steel bar 10mm</td><td>$8.5</td><td>1</td><td>$8.5</td><td><input id="s10" value="8.5" oninput="calc()"></td></tr>
+<tr><td>Steel bar 12mm (main chassis)</td><td>$13</td><td>6 (not 11)</td><td>$78</td><td><input id="s12" value="78" oninput="calc()"></td></tr>
+<tr><td>Steel bar 13mm (battery box)</td><td>$17</td><td>4 (not 11)</td><td>$68</td><td><input id="s13" value="68" oninput="calc()"></td></tr>
+</table>
+<p><span class="badge">FIELD NOTE</span> Full LAXMI quote 23 pcs = $338.5 = 2 frames. For 1 frame ~ $154.5 steel.</p>
+</div>
+
+<div class="card">
+<h3>🔋 Electric Parts - Estimate (Update when you get real price)</h3>
+<table>
+<tr><th>Part</th><th>Guess Price</th><th>Where to Source?</th><th>Cost</th></tr>
+<tr><td>Battery Lithium 48V 100Ah</td><td>$400</td><td>China / Monrovia?</td><td><input id="batt" value="400" oninput="calc()"></td></tr>
+<tr><td>Motor 2000W + Controller</td><td>$250</td><td>India / LAXMI Electrical?</td><td><input id="motor" value="250" oninput="calc()"></td></tr>
+<tr><td>Labour - Welder + Assembler</td><td>$100</td><td>Duala welder from iron shop</td><td><input id="labour" value="100" oninput="calc()"></td></tr>
+<tr><td>Other - Wiring, Seats, Paint, Wheels</td><td>$150</td><td>MD BHUMANDI + tyres</td><td><input id="other" value="150" oninput="calc()"></td></tr>
+</table>
+</div>
+
+<div class="card" style="border:2px solid #00ff88">
+<h3>💰 TOTAL COST FOR 1 ELECTRIC KEKE</h3>
+<h1 id="total" style="color:#00ff88">$1054.50</h1>
+<p>Benchmark: New STALLION petrol M41671 in Duala ~ $1800? (Need to confirm price from driver)</p>
+<p id="diff" style="font-weight:bold;color:#ffcc00">SAVE $745.50 vs Petrol!</p>
+<p style="font-size:12px;color:#aaa">Edit numbers above - Calculator auto updates. No internet needed.</p>
+<button onclick="calc()" style="padding:10px 20px;background:#ffcc00;border:none;border-radius:8px;font-weight:bold;cursor:pointer">Recalculate</button>
+</div>
+
+<div class="card">
+<h3>📊 Why Electric Wins - Duala Math</h3>
+<ul>
+<li>Petrol: $5/day x 30 = $150/month fuel</li>
+<li>Electric: Solar charge at blue building - $1/day = $30/month</li>
+<li>Save $120/month x 12 = $1440/year - Driver pays back keke in 1 year!</li>
+<li>Photos proof: Solar poles already in Duala junction</li>
+</ul>
+</div>
+
+<p style="text-align:center;margin-top:20px;color:#666">C:\BanglaHost\BuilderHub\e-keke-calculator.html | Works Offline</p>
+</body>
+</html>

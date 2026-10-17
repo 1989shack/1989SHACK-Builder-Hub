@@ -1,0 +1,27 @@
+﻿# ELECTRICAL SCHEMATIC - BANGLAHOST ELECTRIC KEKE V1
+# Date: Oct 16 2026 - Deep Work Phase
+
+SYSTEM ARCHITECTURE:
+
+[200W Solar Panel] --> [MPPT Charge Controller 20A] --+
+                                                       |
+[60V 30Ah Battery IP65] --> [Quick Swap Connector] --> [60V BUS] --> [60V 30A Controller] --> [1000W Hub Motor]
+       ^                                                    |
+[220V AC Charger 60V 5A] ----------------------------------+
+       |
+[IP65 Waterproof Case + BMS + Lock]
+
+WIRING DETAILS:
+- Solar: 18V x 2 panels series = 36V -> MPPT -> 60V battery
+- Battery: 16S Li-ion, BMS 30A, Fuse 40A, Anderson SB50 Connector
+- Controller: Hall sensor 3 wires, Throttle 3 wires, Brake cut-off 2 wires
+- Motor: 3 phase + 5 hall, 1000W direct drive
+- Lights: DC-DC 60V->12V 10A for LED headlights + horn
+- Dashboard: Voltmeter 60V, Battery % meter, Speedometer
+
+SAFETY:
+- Fuse 40A main, Circuit breaker, IP65 all connectors
+- Waterproof for Monrovia rain 76F-86F
+
+COST: Wiring + Controller + DC-DC = \
+
