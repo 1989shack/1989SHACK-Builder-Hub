@@ -1,0 +1,10 @@
+bin/
+www/
+certs/
+nginx/
+official-presence/
+node_modules/
+*.bundle
+wp-content/uploads/
+*.log
+pgAmin/
