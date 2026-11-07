@@ -1,0 +1,7 @@
+_build/
+__pycache__/
+*.pyc
+_build
+docs/_build/
+*.exe
+node_modules/
