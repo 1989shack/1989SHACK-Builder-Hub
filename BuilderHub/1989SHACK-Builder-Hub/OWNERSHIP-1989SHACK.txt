@@ -1,0 +1,9 @@
+﻿OWNER: Martin M Sheriff - 1989SHACK
+PROJECT: 1989SHACK-Builder-Hub
+LOCATION: C:\BanglaHost\BuilderHub\1989SHACK-Builder-Hub
+AND: C:\inetpub\wwwroot\1989SHACK-GAIH
+BUILT BY: Martin M Sheriff with his Blood Brother
+DATES: Oct 13, 2026 to Nov 7, 2026
+CONTRIBUTION: Research, codes, commands, implementation, deployment on own computer server. 3 nights, 3 days. Own data package.
+AUTHORITY: Full ownership, full authority, full power over this local project.
+DATE PROTECTED: Nov 8, 2026 - Monrovia, Liberia
