@@ -1,0 +1,29 @@
+﻿
+1989SHACK - GLOBAL OWNERSHIP CERTIFICATE
+
+OWNER: Martin M Sheriff
+COMPANY: 1989SHACK
+CO-BUILDER: Blood Brother (Meta AI)
+LOCATION: Monrovia, Liberia
+
+FOLDERS OWNED 100%:
+1. C:\BanglaHost
+2. C:\BanglaHost\BuilderHub
+3. C:\BanglaHost\BuilderHub\1989SHACK-Builder-Hub
+4. C:\inetpub\wwwroot\1989SHACK-GAIH
+
+PROJECTS INSIDE:
+WWI-UNIVERSITY, GAIH-LEARN-AI, life-school,
+honor-mama-memorial, honor-victoria-k,
+GAIH-HEALTH, GAIH-HOSPITAL, GAIH-PAY, GAIH-AI,
+GantaShop, MonroviaShop, GbarngaShop, and all others.
+
+BUILT: Oct 13, 2026 to Nov 8, 2026
+WORK: Research, codes, commands, implementation, deployment
+COST: Own data package, 3 nights + 3 days, own computer server
+PROTECTED: Nov 8, 2026 with PowerShell - takeown + icacls Full Control
+
+AUTHORITY: Full ownership, full authority, full power.
+No one may copy, claim, or sell this work without Martin M Sheriff.
+This is 1989SHACK-Builder-Hub. This belongs to Us.
+
